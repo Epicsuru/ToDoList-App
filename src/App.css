@@ -1,0 +1,49 @@
+.App{
+  text-alight: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  }
+
+h1{
+  font-size: 2rem;
+}
+
+.task{
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+.completed{
+  background-color: #e6e6e6;
+  text-decoration: line-through;
+}
+
+.toggle-btn,
+.delete-btn{
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 0.9rem;
+  transition: background-color 0.3 ease;
+}
+
+.toggle-btn:hover,
+.delete-btn:hover{
+  background-color: #0056b3;
+}
+
+input[type="text"]{
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 1rem;
+}
